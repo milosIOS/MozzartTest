@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6962540C2E4004CAE5D /* AppDelegate.swift */; };
-		20CFC6992540C2E4004CAE5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6982540C2E4004CAE5D /* SceneDelegate.swift */; };
 		20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC69A2540C2E4004CAE5D /* ViewController.swift */; };
 		20CFC69E2540C2E4004CAE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC69C2540C2E4004CAE5D /* Main.storyboard */; };
 		20CFC6A02540C2E5004CAE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC69F2540C2E5004CAE5D /* Assets.xcassets */; };
 		20CFC6A32540C2E5004CAE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */; };
 		20CFC6AE2540C2E5004CAE5D /* GrckiKinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6AD2540C2E5004CAE5D /* GrckiKinoTests.swift */; };
 		20CFC6B92540C2E5004CAE5D /* GrckiKinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */; };
+		2C4F0FD206BC67621C94D316 /* Pods_GrckiKinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */; };
+		5374312417FD8EC3BCA469AA /* Pods_GrckiKino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */; };
+		EE0FE46ACEBF60E957053B2F /* Pods_GrckiKino_GrckiKinoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E688CE12A1A49164B7107D /* Pods_GrckiKino_GrckiKinoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06BD416BC8424B1D46AD8AE3 /* Pods-GrckiKinoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKinoTests.release.xcconfig"; path = "Target Support Files/Pods-GrckiKinoTests/Pods-GrckiKinoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0801EF26C51D0F7406B5F172 /* Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		20CFC6932540C2E4004CAE5D /* GrckiKino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrckiKino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CFC6962540C2E4004CAE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20CFC6982540C2E4004CAE5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		20CFC69A2540C2E4004CAE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20CFC69D2540C2E4004CAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CFC69F2540C2E5004CAE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		20CFC6B42540C2E5004CAE5D /* GrckiKinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrckiKinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrckiKinoUITests.swift; sourceTree = "<group>"; };
 		20CFC6BA2540C2E5004CAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8827FE0A864816C59B05A279 /* Pods-GrckiKino-GrckiKinoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino-GrckiKinoUITests.release.xcconfig"; path = "Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91C5B7A98567E0181A68DF94 /* Pods-GrckiKinoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKinoTests.debug.xcconfig"; path = "Target Support Files/Pods-GrckiKinoTests/Pods-GrckiKinoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EBDDA1946E621602A8872A8 /* Pods-GrckiKino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino.release.xcconfig"; path = "Target Support Files/Pods-GrckiKino/Pods-GrckiKino.release.xcconfig"; sourceTree = "<group>"; };
+		B7E688CE12A1A49164B7107D /* Pods_GrckiKino_GrckiKinoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKino_GrckiKinoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA52CC5C1A7CB9820A80871 /* Pods-GrckiKino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino.debug.xcconfig"; path = "Target Support Files/Pods-GrckiKino/Pods-GrckiKino.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5374312417FD8EC3BCA469AA /* Pods_GrckiKino.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4F0FD206BC67621C94D316 /* Pods_GrckiKinoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0FE46ACEBF60E957053B2F /* Pods_GrckiKino_GrckiKinoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				20CFC6AC2540C2E5004CAE5D /* GrckiKinoTests */,
 				20CFC6B72540C2E5004CAE5D /* GrckiKinoUITests */,
 				20CFC6942540C2E4004CAE5D /* Products */,
+				514131D1B558DBB8C72F5B0A /* Pods */,
+				952C37569863FCFD2C31D780 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				20CFC6C92540C2F5004CAE5D /* Shared */,
-				20CFC6982540C2E4004CAE5D /* SceneDelegate.swift */,
 				20CFC69A2540C2E4004CAE5D /* ViewController.swift */,
 				20CFC69C2540C2E4004CAE5D /* Main.storyboard */,
 				20CFC69F2540C2E5004CAE5D /* Assets.xcassets */,
@@ -144,6 +158,29 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
+		514131D1B558DBB8C72F5B0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCA52CC5C1A7CB9820A80871 /* Pods-GrckiKino.debug.xcconfig */,
+				9EBDDA1946E621602A8872A8 /* Pods-GrckiKino.release.xcconfig */,
+				0801EF26C51D0F7406B5F172 /* Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig */,
+				8827FE0A864816C59B05A279 /* Pods-GrckiKino-GrckiKinoUITests.release.xcconfig */,
+				91C5B7A98567E0181A68DF94 /* Pods-GrckiKinoTests.debug.xcconfig */,
+				06BD416BC8424B1D46AD8AE3 /* Pods-GrckiKinoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		952C37569863FCFD2C31D780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */,
+				B7E688CE12A1A49164B7107D /* Pods_GrckiKino_GrckiKinoUITests.framework */,
+				494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20CFC6BD2540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKino" */;
 			buildPhases = (
+				58DEF7854D07E6F959C22BD8 /* [CP] Check Pods Manifest.lock */,
 				20CFC68F2540C2E4004CAE5D /* Sources */,
 				20CFC6902540C2E4004CAE5D /* Frameworks */,
 				20CFC6912540C2E4004CAE5D /* Resources */,
@@ -168,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20CFC6C02540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKinoTests" */;
 			buildPhases = (
+				AA3F0588F6D0736B06DCBA21 /* [CP] Check Pods Manifest.lock */,
 				20CFC6A52540C2E5004CAE5D /* Sources */,
 				20CFC6A62540C2E5004CAE5D /* Frameworks */,
 				20CFC6A72540C2E5004CAE5D /* Resources */,
@@ -186,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20CFC6C32540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKinoUITests" */;
 			buildPhases = (
+				7BBA4076567AD544BF9D94B2 /* [CP] Check Pods Manifest.lock */,
 				20CFC6B02540C2E5004CAE5D /* Sources */,
 				20CFC6B12540C2E5004CAE5D /* Frameworks */,
 				20CFC6B22540C2E5004CAE5D /* Resources */,
@@ -269,6 +309,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58DEF7854D07E6F959C22BD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrckiKino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBA4076567AD544BF9D94B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrckiKino-GrckiKinoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3F0588F6D0736B06DCBA21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrckiKinoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20CFC68F2540C2E4004CAE5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,7 +385,6 @@
 			files = (
 				20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */,
 				20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */,
-				20CFC6992540C2E4004CAE5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -437,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -449,6 +557,7 @@
 		};
 		20CFC6BE2540C2E5004CAE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA52CC5C1A7CB9820A80871 /* Pods-GrckiKino.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +577,7 @@
 		};
 		20CFC6BF2540C2E5004CAE5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBDDA1946E621602A8872A8 /* Pods-GrckiKino.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +597,7 @@
 		};
 		20CFC6C12540C2E5004CAE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C5B7A98567E0181A68DF94 /* Pods-GrckiKinoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +620,7 @@
 		};
 		20CFC6C22540C2E5004CAE5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BD416BC8424B1D46AD8AE3 /* Pods-GrckiKinoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +643,7 @@
 		};
 		20CFC6C42540C2E5004CAE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0801EF26C51D0F7406B5F172 /* Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +664,7 @@
 		};
 		20CFC6C52540C2E5004CAE5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8827FE0A864816C59B05A279 /* Pods-GrckiKino-GrckiKinoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

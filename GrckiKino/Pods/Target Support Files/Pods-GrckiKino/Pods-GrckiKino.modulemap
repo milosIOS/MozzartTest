@@ -1,0 +1,6 @@
+framework module Pods_GrckiKino {
+  umbrella header "Pods-GrckiKino-umbrella.h"
+
+  export *
+  module * { export * }
+}
