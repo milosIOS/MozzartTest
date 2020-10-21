@@ -14,6 +14,31 @@
 		20CFC6A32540C2E5004CAE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */; };
 		20CFC6AE2540C2E5004CAE5D /* GrckiKinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6AD2540C2E5004CAE5D /* GrckiKinoTests.swift */; };
 		20CFC6B92540C2E5004CAE5D /* GrckiKinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */; };
+		20CFC6FD2540DD21004CAE5D /* GameSchedulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6FC2540DD21004CAE5D /* GameSchedulesViewController.swift */; };
+		20CFC7092540DD57004CAE5D /* UIStoryboard+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7082540DD57004CAE5D /* UIStoryboard+Names.swift */; };
+		20CFC70E2540DD7B004CAE5D /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC70D2540DD7B004CAE5D /* NSObject+NameOfClass.swift */; };
+		20CFC7142540DDB1004CAE5D /* StoryboardsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7132540DDB1004CAE5D /* StoryboardsEnum.swift */; };
+		20CFC72D2540DE4A004CAE5D /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC72C2540DE4A004CAE5D /* UITableView+Extensions.swift */; };
+		20CFC7332540DEEC004CAE5D /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7322540DEEC004CAE5D /* AppNavigation.swift */; };
+		20CFC73C2540DF4A004CAE5D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC73B2540DF4A004CAE5D /* Coordinator.swift */; };
+		20CFC7422540DF81004CAE5D /* LauncherManagerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7412540DF81004CAE5D /* LauncherManagerOption.swift */; };
+		20CFC7472540DFD7004CAE5D /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7462540DFD7004CAE5D /* CoordinatorFactory.swift */; };
+		20CFC74C2540E00E004CAE5D /* CoordinatorFactoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC74B2540E00E004CAE5D /* CoordinatorFactoryImp.swift */; };
+		20CFC7512540E053004CAE5D /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7502540E053004CAE5D /* BaseCoordinator.swift */; };
+		20CFC7572540E072004CAE5D /* MainFactoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7562540E072004CAE5D /* MainFactoryImp.swift */; };
+		20CFC75C2540E0A0004CAE5D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC75B2540E0A0004CAE5D /* MainCoordinator.swift */; };
+		20CFC7612540E11D004CAE5D /* MainModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7602540E11D004CAE5D /* MainModuleFactory.swift */; };
+		20CFC7672540E14B004CAE5D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7662540E14B004CAE5D /* Router.swift */; };
+		20CFC76C2540E163004CAE5D /* RouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC76B2540E163004CAE5D /* RouterImp.swift */; };
+		20CFC7712540E17D004CAE5D /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7702540E17D004CAE5D /* Presentable.swift */; };
+		20CFC7762540E1A7004CAE5D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7752540E1A7004CAE5D /* BaseView.swift */; };
+		20CFC77C2540E318004CAE5D /* UserDefaultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC77B2540E318004CAE5D /* UserDefaultsHandler.swift */; };
+		20CFC7832540E397004CAE5D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7822540E397004CAE5D /* SplashViewController.swift */; };
+		20CFC78C2540E5E6004CAE5D /* UIView+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC78B2540E5E6004CAE5D /* UIView+Styling.swift */; };
+		20CFC7942540E7ED004CAE5D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7932540E7ED004CAE5D /* GameViewController.swift */; };
+		20CFC79C2540EC89004CAE5D /* GameSchedulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC79B2540EC89004CAE5D /* GameSchedulesViewModel.swift */; };
+		20CFC7B62540EE5B004CAE5D /* StructGameSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7B52540EE5B004CAE5D /* StructGameSchedule.swift */; };
+		20CFC7CA2540F383004CAE5D /* GameSchedulesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7C92540F383004CAE5D /* GameSchedulesTableCell.swift */; };
 		2C4F0FD206BC67621C94D316 /* Pods_GrckiKinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */; };
 		5374312417FD8EC3BCA469AA /* Pods_GrckiKino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */; };
 		EE0FE46ACEBF60E957053B2F /* Pods_GrckiKino_GrckiKinoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E688CE12A1A49164B7107D /* Pods_GrckiKino_GrckiKinoUITests.framework */; };
@@ -52,6 +77,31 @@
 		20CFC6B42540C2E5004CAE5D /* GrckiKinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrckiKinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrckiKinoUITests.swift; sourceTree = "<group>"; };
 		20CFC6BA2540C2E5004CAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CFC6FC2540DD21004CAE5D /* GameSchedulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSchedulesViewController.swift; sourceTree = "<group>"; };
+		20CFC7082540DD57004CAE5D /* UIStoryboard+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Names.swift"; sourceTree = "<group>"; };
+		20CFC70D2540DD7B004CAE5D /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
+		20CFC7132540DDB1004CAE5D /* StoryboardsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardsEnum.swift; sourceTree = "<group>"; };
+		20CFC72C2540DE4A004CAE5D /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		20CFC7322540DEEC004CAE5D /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		20CFC73B2540DF4A004CAE5D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		20CFC7412540DF81004CAE5D /* LauncherManagerOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherManagerOption.swift; sourceTree = "<group>"; };
+		20CFC7462540DFD7004CAE5D /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		20CFC74B2540E00E004CAE5D /* CoordinatorFactoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactoryImp.swift; sourceTree = "<group>"; };
+		20CFC7502540E053004CAE5D /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		20CFC7562540E072004CAE5D /* MainFactoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactoryImp.swift; sourceTree = "<group>"; };
+		20CFC75B2540E0A0004CAE5D /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		20CFC7602540E11D004CAE5D /* MainModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleFactory.swift; sourceTree = "<group>"; };
+		20CFC7662540E14B004CAE5D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		20CFC76B2540E163004CAE5D /* RouterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterImp.swift; sourceTree = "<group>"; };
+		20CFC7702540E17D004CAE5D /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		20CFC7752540E1A7004CAE5D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		20CFC77B2540E318004CAE5D /* UserDefaultsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHandler.swift; sourceTree = "<group>"; };
+		20CFC7822540E397004CAE5D /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		20CFC78B2540E5E6004CAE5D /* UIView+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styling.swift"; sourceTree = "<group>"; };
+		20CFC7932540E7ED004CAE5D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		20CFC79B2540EC89004CAE5D /* GameSchedulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSchedulesViewModel.swift; sourceTree = "<group>"; };
+		20CFC7B52540EE5B004CAE5D /* StructGameSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructGameSchedule.swift; sourceTree = "<group>"; };
+		20CFC7C92540F383004CAE5D /* GameSchedulesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSchedulesTableCell.swift; sourceTree = "<group>"; };
 		494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8827FE0A864816C59B05A279 /* Pods-GrckiKino-GrckiKinoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino-GrckiKinoUITests.release.xcconfig"; path = "Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,9 +164,10 @@
 		20CFC6952540C2E4004CAE5D /* GrckiKino */ = {
 			isa = PBXGroup;
 			children = (
+				20CFC73A2540DF12004CAE5D /* Coordinators */,
+				20CFC6F82540DC8D004CAE5D /* Screens */,
 				20CFC6C92540C2F5004CAE5D /* Shared */,
 				20CFC69A2540C2E4004CAE5D /* ViewController.swift */,
-				20CFC69C2540C2E4004CAE5D /* Main.storyboard */,
 				20CFC69F2540C2E5004CAE5D /* Assets.xcassets */,
 				20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */,
 				20CFC6A42540C2E5004CAE5D /* Info.plist */,
@@ -145,6 +196,11 @@
 		20CFC6C92540C2F5004CAE5D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				20CFC7B12540EE44004CAE5D /* Models */,
+				20CFC78A2540E5D8004CAE5D /* Protocols */,
+				20CFC77A2540E308004CAE5D /* Classess */,
+				20CFC7122540DD93004CAE5D /* Enum */,
+				20CFC7072540DD44004CAE5D /* Extensions */,
 				20CFC6CA2540C2FA004CAE5D /* Delegates */,
 			);
 			path = Shared;
@@ -156,6 +212,185 @@
 				20CFC6962540C2E4004CAE5D /* AppDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		20CFC6F82540DC8D004CAE5D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7902540E7D3004CAE5D /* GameScreen */,
+				20CFC69C2540C2E4004CAE5D /* Main.storyboard */,
+				20CFC7802540E361004CAE5D /* Splash */,
+				20CFC7312540DEC7004CAE5D /* AppNavigation */,
+				20CFC6F92540DC92004CAE5D /* GameSchedules */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		20CFC6F92540DC92004CAE5D /* GameSchedules */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6FB2540DD03004CAE5D /* ViewModel */,
+				20CFC6FA2540DCFE004CAE5D /* View */,
+			);
+			path = GameSchedules;
+			sourceTree = "<group>";
+		};
+		20CFC6FA2540DCFE004CAE5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7A02540ED4B004CAE5D /* TableViewCell */,
+				20CFC6FC2540DD21004CAE5D /* GameSchedulesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20CFC6FB2540DD03004CAE5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC79B2540EC89004CAE5D /* GameSchedulesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20CFC7072540DD44004CAE5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7082540DD57004CAE5D /* UIStoryboard+Names.swift */,
+				20CFC70D2540DD7B004CAE5D /* NSObject+NameOfClass.swift */,
+				20CFC72C2540DE4A004CAE5D /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20CFC7122540DD93004CAE5D /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7132540DDB1004CAE5D /* StoryboardsEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		20CFC7312540DEC7004CAE5D /* AppNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7322540DEEC004CAE5D /* AppNavigation.swift */,
+			);
+			path = AppNavigation;
+			sourceTree = "<group>";
+		};
+		20CFC73A2540DF12004CAE5D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7652540E143004CAE5D /* Router */,
+				20CFC7552540E064004CAE5D /* Main */,
+				20CFC7402540DF6F004CAE5D /* DeepLink */,
+				20CFC73B2540DF4A004CAE5D /* Coordinator.swift */,
+				20CFC7462540DFD7004CAE5D /* CoordinatorFactory.swift */,
+				20CFC74B2540E00E004CAE5D /* CoordinatorFactoryImp.swift */,
+				20CFC7502540E053004CAE5D /* BaseCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		20CFC7402540DF6F004CAE5D /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7412540DF81004CAE5D /* LauncherManagerOption.swift */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		20CFC7552540E064004CAE5D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7602540E11D004CAE5D /* MainModuleFactory.swift */,
+				20CFC7562540E072004CAE5D /* MainFactoryImp.swift */,
+				20CFC75B2540E0A0004CAE5D /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20CFC7652540E143004CAE5D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7662540E14B004CAE5D /* Router.swift */,
+				20CFC76B2540E163004CAE5D /* RouterImp.swift */,
+				20CFC7702540E17D004CAE5D /* Presentable.swift */,
+				20CFC7752540E1A7004CAE5D /* BaseView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		20CFC77A2540E308004CAE5D /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC77B2540E318004CAE5D /* UserDefaultsHandler.swift */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		20CFC7802540E361004CAE5D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7812540E384004CAE5D /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		20CFC7812540E384004CAE5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7822540E397004CAE5D /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20CFC78A2540E5D8004CAE5D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC78B2540E5E6004CAE5D /* UIView+Styling.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		20CFC7902540E7D3004CAE5D /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7922540E7DC004CAE5D /* ViewModel */,
+				20CFC7912540E7D8004CAE5D /* View */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		20CFC7912540E7D8004CAE5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7932540E7ED004CAE5D /* GameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20CFC7922540E7DC004CAE5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20CFC7A02540ED4B004CAE5D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7C92540F383004CAE5D /* GameSchedulesTableCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		20CFC7B12540EE44004CAE5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7B52540EE5B004CAE5D /* StructGameSchedule.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		514131D1B558DBB8C72F5B0A /* Pods */ = {
@@ -383,8 +618,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CFC70E2540DD7B004CAE5D /* NSObject+NameOfClass.swift in Sources */,
+				20CFC72D2540DE4A004CAE5D /* UITableView+Extensions.swift in Sources */,
+				20CFC79C2540EC89004CAE5D /* GameSchedulesViewModel.swift in Sources */,
+				20CFC7572540E072004CAE5D /* MainFactoryImp.swift in Sources */,
+				20CFC7512540E053004CAE5D /* BaseCoordinator.swift in Sources */,
+				20CFC7942540E7ED004CAE5D /* GameViewController.swift in Sources */,
+				20CFC7142540DDB1004CAE5D /* StoryboardsEnum.swift in Sources */,
+				20CFC7B62540EE5B004CAE5D /* StructGameSchedule.swift in Sources */,
+				20CFC7612540E11D004CAE5D /* MainModuleFactory.swift in Sources */,
 				20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */,
+				20CFC7762540E1A7004CAE5D /* BaseView.swift in Sources */,
+				20CFC74C2540E00E004CAE5D /* CoordinatorFactoryImp.swift in Sources */,
+				20CFC7092540DD57004CAE5D /* UIStoryboard+Names.swift in Sources */,
+				20CFC77C2540E318004CAE5D /* UserDefaultsHandler.swift in Sources */,
+				20CFC6FD2540DD21004CAE5D /* GameSchedulesViewController.swift in Sources */,
+				20CFC7672540E14B004CAE5D /* Router.swift in Sources */,
+				20CFC78C2540E5E6004CAE5D /* UIView+Styling.swift in Sources */,
 				20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */,
+				20CFC7332540DEEC004CAE5D /* AppNavigation.swift in Sources */,
+				20CFC7422540DF81004CAE5D /* LauncherManagerOption.swift in Sources */,
+				20CFC7472540DFD7004CAE5D /* CoordinatorFactory.swift in Sources */,
+				20CFC7712540E17D004CAE5D /* Presentable.swift in Sources */,
+				20CFC76C2540E163004CAE5D /* RouterImp.swift in Sources */,
+				20CFC7CA2540F383004CAE5D /* GameSchedulesTableCell.swift in Sources */,
+				20CFC75C2540E0A0004CAE5D /* MainCoordinator.swift in Sources */,
+				20CFC73C2540DF4A004CAE5D /* Coordinator.swift in Sources */,
+				20CFC7832540E397004CAE5D /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
