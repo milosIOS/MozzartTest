@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6962540C2E4004CAE5D /* AppDelegate.swift */; };
+		20CFC6992540C2E4004CAE5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6982540C2E4004CAE5D /* SceneDelegate.swift */; };
+		20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC69A2540C2E4004CAE5D /* ViewController.swift */; };
+		20CFC69E2540C2E4004CAE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC69C2540C2E4004CAE5D /* Main.storyboard */; };
+		20CFC6A02540C2E5004CAE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC69F2540C2E5004CAE5D /* Assets.xcassets */; };
+		20CFC6A32540C2E5004CAE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */; };
+		20CFC6AE2540C2E5004CAE5D /* GrckiKinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6AD2540C2E5004CAE5D /* GrckiKinoTests.swift */; };
+		20CFC6B92540C2E5004CAE5D /* GrckiKinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20CFC6AA2540C2E5004CAE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CFC68B2540C2E4004CAE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CFC6922540C2E4004CAE5D;
+			remoteInfo = GrckiKino;
+		};
+		20CFC6B52540C2E5004CAE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CFC68B2540C2E4004CAE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CFC6922540C2E4004CAE5D;
+			remoteInfo = GrckiKino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20CFC6932540C2E4004CAE5D /* GrckiKino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrckiKino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFC6962540C2E4004CAE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20CFC6982540C2E4004CAE5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20CFC69A2540C2E4004CAE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20CFC69D2540C2E4004CAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20CFC69F2540C2E5004CAE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20CFC6A22540C2E5004CAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20CFC6A42540C2E5004CAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CFC6A92540C2E5004CAE5D /* GrckiKinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrckiKinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFC6AD2540C2E5004CAE5D /* GrckiKinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrckiKinoTests.swift; sourceTree = "<group>"; };
+		20CFC6AF2540C2E5004CAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CFC6B42540C2E5004CAE5D /* GrckiKinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrckiKinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrckiKinoUITests.swift; sourceTree = "<group>"; };
+		20CFC6BA2540C2E5004CAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20CFC6902540C2E4004CAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFC6A62540C2E5004CAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFC6B12540C2E5004CAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CFC68A2540C2E4004CAE5D = {
+			isa = PBXGroup;
+			children = (
+				20CFC6952540C2E4004CAE5D /* GrckiKino */,
+				20CFC6AC2540C2E5004CAE5D /* GrckiKinoTests */,
+				20CFC6B72540C2E5004CAE5D /* GrckiKinoUITests */,
+				20CFC6942540C2E4004CAE5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20CFC6942540C2E4004CAE5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6932540C2E4004CAE5D /* GrckiKino.app */,
+				20CFC6A92540C2E5004CAE5D /* GrckiKinoTests.xctest */,
+				20CFC6B42540C2E5004CAE5D /* GrckiKinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20CFC6952540C2E4004CAE5D /* GrckiKino */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6C92540C2F5004CAE5D /* Shared */,
+				20CFC6982540C2E4004CAE5D /* SceneDelegate.swift */,
+				20CFC69A2540C2E4004CAE5D /* ViewController.swift */,
+				20CFC69C2540C2E4004CAE5D /* Main.storyboard */,
+				20CFC69F2540C2E5004CAE5D /* Assets.xcassets */,
+				20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */,
+				20CFC6A42540C2E5004CAE5D /* Info.plist */,
+			);
+			path = GrckiKino;
+			sourceTree = "<group>";
+		};
+		20CFC6AC2540C2E5004CAE5D /* GrckiKinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6AD2540C2E5004CAE5D /* GrckiKinoTests.swift */,
+				20CFC6AF2540C2E5004CAE5D /* Info.plist */,
+			);
+			path = GrckiKinoTests;
+			sourceTree = "<group>";
+		};
+		20CFC6B72540C2E5004CAE5D /* GrckiKinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6B82540C2E5004CAE5D /* GrckiKinoUITests.swift */,
+				20CFC6BA2540C2E5004CAE5D /* Info.plist */,
+			);
+			path = GrckiKinoUITests;
+			sourceTree = "<group>";
+		};
+		20CFC6C92540C2F5004CAE5D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6CA2540C2FA004CAE5D /* Delegates */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		20CFC6CA2540C2FA004CAE5D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC6962540C2E4004CAE5D /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20CFC6922540C2E4004CAE5D /* GrckiKino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CFC6BD2540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKino" */;
+			buildPhases = (
+				20CFC68F2540C2E4004CAE5D /* Sources */,
+				20CFC6902540C2E4004CAE5D /* Frameworks */,
+				20CFC6912540C2E4004CAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrckiKino;
+			productName = GrckiKino;
+			productReference = 20CFC6932540C2E4004CAE5D /* GrckiKino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20CFC6A82540C2E5004CAE5D /* GrckiKinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CFC6C02540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKinoTests" */;
+			buildPhases = (
+				20CFC6A52540C2E5004CAE5D /* Sources */,
+				20CFC6A62540C2E5004CAE5D /* Frameworks */,
+				20CFC6A72540C2E5004CAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CFC6AB2540C2E5004CAE5D /* PBXTargetDependency */,
+			);
+			name = GrckiKinoTests;
+			productName = GrckiKinoTests;
+			productReference = 20CFC6A92540C2E5004CAE5D /* GrckiKinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20CFC6B32540C2E5004CAE5D /* GrckiKinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CFC6C32540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKinoUITests" */;
+			buildPhases = (
+				20CFC6B02540C2E5004CAE5D /* Sources */,
+				20CFC6B12540C2E5004CAE5D /* Frameworks */,
+				20CFC6B22540C2E5004CAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CFC6B62540C2E5004CAE5D /* PBXTargetDependency */,
+			);
+			name = GrckiKinoUITests;
+			productName = GrckiKinoUITests;
+			productReference = 20CFC6B42540C2E5004CAE5D /* GrckiKinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20CFC68B2540C2E4004CAE5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					20CFC6922540C2E4004CAE5D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					20CFC6A82540C2E5004CAE5D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 20CFC6922540C2E4004CAE5D;
+					};
+					20CFC6B32540C2E5004CAE5D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 20CFC6922540C2E4004CAE5D;
+					};
+				};
+			};
+			buildConfigurationList = 20CFC68E2540C2E4004CAE5D /* Build configuration list for PBXProject "GrckiKino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20CFC68A2540C2E4004CAE5D;
+			productRefGroup = 20CFC6942540C2E4004CAE5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20CFC6922540C2E4004CAE5D /* GrckiKino */,
+				20CFC6A82540C2E5004CAE5D /* GrckiKinoTests */,
+				20CFC6B32540C2E5004CAE5D /* GrckiKinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20CFC6912540C2E4004CAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFC6A32540C2E5004CAE5D /* LaunchScreen.storyboard in Resources */,
+				20CFC6A02540C2E5004CAE5D /* Assets.xcassets in Resources */,
+				20CFC69E2540C2E4004CAE5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFC6A72540C2E5004CAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFC6B22540C2E5004CAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20CFC68F2540C2E4004CAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */,
+				20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */,
+				20CFC6992540C2E4004CAE5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFC6A52540C2E5004CAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFC6AE2540C2E5004CAE5D /* GrckiKinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFC6B02540C2E5004CAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFC6B92540C2E5004CAE5D /* GrckiKinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20CFC6AB2540C2E5004CAE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20CFC6922540C2E4004CAE5D /* GrckiKino */;
+			targetProxy = 20CFC6AA2540C2E5004CAE5D /* PBXContainerItemProxy */;
+		};
+		20CFC6B62540C2E5004CAE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20CFC6922540C2E4004CAE5D /* GrckiKino */;
+			targetProxy = 20CFC6B52540C2E5004CAE5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20CFC69C2540C2E4004CAE5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20CFC69D2540C2E4004CAE5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20CFC6A22540C2E5004CAE5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20CFC6BB2540C2E5004CAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20CFC6BC2540C2E5004CAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20CFC6BE2540C2E5004CAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDV8J265GP;
+				INFOPLIST_FILE = GrckiKino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozzartTest.milos.GrckiKino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20CFC6BF2540C2E5004CAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDV8J265GP;
+				INFOPLIST_FILE = GrckiKino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozzartTest.milos.GrckiKino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20CFC6C12540C2E5004CAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDV8J265GP;
+				INFOPLIST_FILE = GrckiKinoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozzartTest.milos.GrckiKinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrckiKino.app/GrckiKino";
+			};
+			name = Debug;
+		};
+		20CFC6C22540C2E5004CAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDV8J265GP;
+				INFOPLIST_FILE = GrckiKinoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozzartTest.milos.GrckiKinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrckiKino.app/GrckiKino";
+			};
+			name = Release;
+		};
+		20CFC6C42540C2E5004CAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDV8J265GP;
+				INFOPLIST_FILE = GrckiKinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozzartTest.milos.GrckiKinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrckiKino;
+			};
+			name = Debug;
+		};
+		20CFC6C52540C2E5004CAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDV8J265GP;
+				INFOPLIST_FILE = GrckiKinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozzartTest.milos.GrckiKinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrckiKino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20CFC68E2540C2E4004CAE5D /* Build configuration list for PBXProject "GrckiKino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFC6BB2540C2E5004CAE5D /* Debug */,
+				20CFC6BC2540C2E5004CAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CFC6BD2540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFC6BE2540C2E5004CAE5D /* Debug */,
+				20CFC6BF2540C2E5004CAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CFC6C02540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFC6C12540C2E5004CAE5D /* Debug */,
+				20CFC6C22540C2E5004CAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CFC6C32540C2E5004CAE5D /* Build configuration list for PBXNativeTarget "GrckiKinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFC6C42540C2E5004CAE5D /* Debug */,
+				20CFC6C52540C2E5004CAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20CFC68B2540C2E4004CAE5D /* Project object */;
+}
