@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  GrckiKino
+
+  Created by Milos Stevanovic on 10/22/20.
+  
+*/
+
+"Common.Ok" = "Ok";
+"Common.Cancel" = "Cancel";
+"Common.Error" = "Error";
+"Common.Reload" = "Reload";
+"Common.ExitApp" = "Exit app";
+"Common.Retry" = "Retry";
+"Common.NotFinished" = "Not finished";
+
+
+"BettingClosed" = "Betting Closed";
+
+//Alerts
+"Alert.Title.NoInternet" = "No internet connection";
+"Alert.Message.NoInternet" = "Please connect your device to internet";
+"Alert.Message.Default" = "Something went wrong.\nPlease try later";
+"Alert.Title.MaximumNumbersSelected" = "Maximum numbers selected";
+"Alert.Message.MaximumNumbersSelected" = "You have selected maximum numbers";
+
+
+//SelectedGameTabBarViewController
+"MozzartTest" = "Mozzart Test";
+"SelectedGameTab.Talon" = "Talon";
+"SelectedGameTab.Rezultati" = "Rezultati";
+"SelectedGameTab.Izvlacenje" = "Izvlacenje";
+
+
+//TalonViewController
+
+"Talon.DrawTime:" = "Vreme izvlacenja: ";
+"Talon.CountOfSelectedNumbers" = "Broj izabranih kuglica je: ";
+"Talon.TimeLeft" = "Preostalo vreme do izvlacenja je: ";
+"Talon.Round" = "Kolo: ";
+

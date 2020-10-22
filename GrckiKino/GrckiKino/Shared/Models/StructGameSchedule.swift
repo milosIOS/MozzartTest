@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct GameSchedule {
+struct GameSchedule: Codable {
     var gameTime: String
     var timeLeft: String
     

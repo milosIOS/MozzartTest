@@ -6,7 +6,7 @@
 //
 import Foundation
 enum MainOutputScreen: Int {
-    case showSplash = 1, login, register
+    case showSplash = 1
 }
 
 protocol MainCoordinatorOutput : class {
@@ -33,8 +33,7 @@ class MainCoordinator : BaseCoordinator, MainCoordinatorOutput {
             switch startWith {
             case .showSplash:
                 UserDefaultsHandler.shared.isAppOpenedFirstTime ? showSplash() : showGameSchedulesScreen()
-            default:
-                print("other jump here")
+            break
             }
         }
     }
@@ -52,21 +51,24 @@ class MainCoordinator : BaseCoordinator, MainCoordinatorOutput {
     //MARK:- Open login screen
     private func showGameSchedulesScreen() {
         let gameSchedulesScreen = factory.makeGameSchedulesScreen()
-        gameSchedulesScreen.openGameScreen = {[weak self] in
-            self?.showGameScreen()
+        gameSchedulesScreen.openGameScreen = {[weak self] (selectedGame) in
+            self?.showSelectedGameTabBarScreen(selectedGame)
         }
         
-        router.setRootModule(gameSchedulesScreen, hideBar: true, animated: true)
+        router.setRootModule(gameSchedulesScreen,
+                             hideBar: true,
+                             animated: true)
     }
     
-    //MARK:- Open game screen
-    private func showGameScreen() {
-        let gameScreen = factory.makeGameScreen()
-        gameScreen.onGoBack = { [weak self] in
+    //MARK:- Open selected game screen
+    private func showSelectedGameTabBarScreen(_ selectedGame: SheduledGame!) {
+        let selectedGameTabBarScreen = factory.makeSelectedGameTabBarScreen()
+        selectedGameTabBarScreen.selectedGame = selectedGame
+        
+        selectedGameTabBarScreen.onGoBack = {[weak self] in
             self?.router.popModule(animated: true)
         }
-        //router.push(gameScreen, animated: true)
-        router.push(gameScreen, animated: true)
+        router.push(selectedGameTabBarScreen, animated: true)
     }
     
 }

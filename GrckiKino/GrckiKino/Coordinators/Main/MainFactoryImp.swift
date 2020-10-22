@@ -8,12 +8,28 @@
 import Foundation
 class MainFactoryImp: MainModuleFactory {
     
+    func makeSelectedGameNumbersDraw() -> DrawNumbersView {
+        return NumbersDrawViewController.controllerFromStoryboard(.main)
+    }
+    
+    func makeSelectedGameResultsScreen() -> ResultsView {
+        return ResultsViewController.controllerFromStoryboard(.main)
+    }
+    
+    func makeSelectedGameTalonScreen() -> TalonView {
+        return TalonViewController.controllerFromStoryboard(.main)
+    }
+    
+    func makeSelectedGameTabBarScreen() -> SelectedGameTabBarView {
+        return SelectedGameTabBarViewController.controllerFromStoryboard(.main)
+    }
+    
     func makeGameScreen() -> GameView {
         return GameViewController.controllerFromStoryboard(.main)
     }
-
+    
     func makeGameSchedulesScreen() -> GameSchedulesView {
-       return GameSchedulesViewController.controllerFromStoryboard(.main)
+        return GameSchedulesViewController.controllerFromStoryboard(.main)
     }
     
     func makeSplashScreen() -> SplashView {

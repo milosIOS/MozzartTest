@@ -3,13 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20594DC32546B25200EAE3CE /* ViewModelNumbersDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20594DC22546B25200EAE3CE /* ViewModelNumbersDraw.swift */; };
+		20594DC82546BD4A00EAE3CE /* ViewModelResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20594DC72546BD4A00EAE3CE /* ViewModelResults.swift */; };
+		20594DD82546FD5800EAE3CE /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20594DD72546FD5800EAE3CE /* DateHandler.swift */; };
+		20594DDD254700ED00EAE3CE /* CompletedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20594DDC254700ED00EAE3CE /* CompletedGame.swift */; };
+		20594DE325472C8900EAE3CE /* ResultsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20594DE225472C8900EAE3CE /* ResultsTableCell.swift */; };
+		206CF25425460F3A00644E97 /* ViewModelSelectedGameTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF25325460F3A00644E97 /* ViewModelSelectedGameTabBar.swift */; };
+		206CF273254619FA00644E97 /* TalonCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF272254619FA00644E97 /* TalonCollectionViewHeader.swift */; };
+		206CF28D2546251800644E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206CF28C2546251800644E97 /* Main.storyboard */; };
+		209BCEFB25477B1600F3CA3A /* TalonNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BCEFA25477B1600F3CA3A /* TalonNumber.swift */; };
+		20A79DE82541ECDF00D993E8 /* GamesSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79DE72541ECDF00D993E8 /* GamesSchedule.swift */; };
+		20A79E2025420C1A00D993E8 /* NotificationCenter+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E1F25420C1A00D993E8 /* NotificationCenter+Name.swift */; };
+		20A79E2725421D4800D993E8 /* AlertControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E2625421D4800D993E8 /* AlertControllerPresenter.swift */; };
+		20A79E2C25421D6800D993E8 /* UIViewController+AlertSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E2B25421D6800D993E8 /* UIViewController+AlertSheet.swift */; };
+		20A79E3225421D8400D993E8 /* AlertControllerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E3125421D8400D993E8 /* AlertControllerData.swift */; };
+		20A79E3B25421DAA00D993E8 /* AlertPresentableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E3A25421DAA00D993E8 /* AlertPresentableViewController.swift */; };
+		20A79E4025421DCB00D993E8 /* CustomAlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E3F25421DCB00D993E8 /* CustomAlertButton.swift */; };
+		20A79E4525421DE600D993E8 /* CustomAlertImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E4425421DE600D993E8 /* CustomAlertImageView.swift */; };
+		20A79E4A25421DFC00D993E8 /* CustomAlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E4925421DFC00D993E8 /* CustomAlertLabel.swift */; };
+		20A79E4F25421E1300D993E8 /* CustomAlertPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E4E25421E1300D993E8 /* CustomAlertPicker.swift */; };
+		20A79E5425421E2600D993E8 /* CustomAlertAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E5325421E2600D993E8 /* CustomAlertAnimations.swift */; };
+		20A79E5925421E3B00D993E8 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E5825421E3B00D993E8 /* CustomAlertView.swift */; };
+		20A79E5E25421E5000D993E8 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E5D25421E5000D993E8 /* CustomAlertViewController.swift */; };
+		20A79E6325421E7100D993E8 /* CustomPickerAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E6225421E7100D993E8 /* CustomPickerAlertViewController.swift */; };
+		20A79E6B25421EA700D993E8 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E6A25421EA700D993E8 /* UIColor+Theme.swift */; };
+		20A79E812542286D00D993E8 /* SelectedGameTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E802542286D00D993E8 /* SelectedGameTabBarViewController.swift */; };
+		20A79E9225422EE900D993E8 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E9125422EE900D993E8 /* ResultsViewController.swift */; };
+		20A79E9925422F1600D993E8 /* NumbersDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79E9825422F1600D993E8 /* NumbersDrawViewController.swift */; };
+		20A79EA625422F2900D993E8 /* TalonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79EA525422F2900D993E8 /* TalonViewController.swift */; };
+		20A79EAE2542340900D993E8 /* TalonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79EAD2542340900D993E8 /* TalonViewModel.swift */; };
+		20A79EB4254236D700D993E8 /* TalonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79EB3254236D700D993E8 /* TalonCollectionViewCell.swift */; };
+		20A79EBC2542380E00D993E8 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A79EBB2542380E00D993E8 /* UICollectionView+Extensions.swift */; };
 		20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6962540C2E4004CAE5D /* AppDelegate.swift */; };
 		20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC69A2540C2E4004CAE5D /* ViewController.swift */; };
-		20CFC69E2540C2E4004CAE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC69C2540C2E4004CAE5D /* Main.storyboard */; };
 		20CFC6A02540C2E5004CAE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC69F2540C2E5004CAE5D /* Assets.xcassets */; };
 		20CFC6A32540C2E5004CAE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */; };
 		20CFC6AE2540C2E5004CAE5D /* GrckiKinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC6AD2540C2E5004CAE5D /* GrckiKinoTests.swift */; };
@@ -39,6 +69,17 @@
 		20CFC79C2540EC89004CAE5D /* GameSchedulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC79B2540EC89004CAE5D /* GameSchedulesViewModel.swift */; };
 		20CFC7B62540EE5B004CAE5D /* StructGameSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7B52540EE5B004CAE5D /* StructGameSchedule.swift */; };
 		20CFC7CA2540F383004CAE5D /* GameSchedulesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7C92540F383004CAE5D /* GameSchedulesTableCell.swift */; };
+		20CFC7DE2540FBB1004CAE5D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7DD2540FBB1004CAE5D /* APIManager.swift */; };
+		20CFC7F62540FC2E004CAE5D /* ParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7F52540FC2E004CAE5D /* ParserHelper.swift */; };
+		20CFC7FE2540FC53004CAE5D /* Threader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC7FD2540FC53004CAE5D /* Threader.swift */; };
+		20CFC8032540FC66004CAE5D /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC8022540FC66004CAE5D /* Parser.swift */; };
+		20CFC8112540FC9E004CAE5D /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC8102540FC9E004CAE5D /* ErrorResult.swift */; };
+		20CFC82F2540FD46004CAE5D /* ServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC82E2540FD46004CAE5D /* ServerAPI.swift */; };
+		20CFC83E2540FDFB004CAE5D /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC83D2540FDFB004CAE5D /* AlertMessage.swift */; };
+		20CFC8432540FE5D004CAE5D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20CFC8422540FE5D004CAE5D /* Localizable.strings */; };
+		20CFC8482540FEB3004CAE5D /* UIString+localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC8472540FEB2004CAE5D /* UIString+localize.swift */; };
+		20CFC85B2540FF2B004CAE5D /* RemoteResourceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC85A2540FF2B004CAE5D /* RemoteResourceError.swift */; };
+		20CFC8602540FF79004CAE5D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFC85F2540FF79004CAE5D /* NetworkError.swift */; };
 		2C4F0FD206BC67621C94D316 /* Pods_GrckiKinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */; };
 		5374312417FD8EC3BCA469AA /* Pods_GrckiKino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */; };
 		EE0FE46ACEBF60E957053B2F /* Pods_GrckiKino_GrckiKinoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E688CE12A1A49164B7107D /* Pods_GrckiKino_GrckiKinoUITests.framework */; };
@@ -64,10 +105,40 @@
 /* Begin PBXFileReference section */
 		06BD416BC8424B1D46AD8AE3 /* Pods-GrckiKinoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKinoTests.release.xcconfig"; path = "Target Support Files/Pods-GrckiKinoTests/Pods-GrckiKinoTests.release.xcconfig"; sourceTree = "<group>"; };
 		0801EF26C51D0F7406B5F172 /* Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20594DC22546B25200EAE3CE /* ViewModelNumbersDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelNumbersDraw.swift; sourceTree = "<group>"; };
+		20594DC72546BD4A00EAE3CE /* ViewModelResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelResults.swift; sourceTree = "<group>"; };
+		20594DD72546FD5800EAE3CE /* DateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHandler.swift; sourceTree = "<group>"; };
+		20594DDC254700ED00EAE3CE /* CompletedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGame.swift; sourceTree = "<group>"; };
+		20594DE225472C8900EAE3CE /* ResultsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableCell.swift; sourceTree = "<group>"; };
+		206CF25325460F3A00644E97 /* ViewModelSelectedGameTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSelectedGameTabBar.swift; sourceTree = "<group>"; };
+		206CF272254619FA00644E97 /* TalonCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonCollectionViewHeader.swift; sourceTree = "<group>"; };
+		206CF28C2546251800644E97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		209BCEFA25477B1600F3CA3A /* TalonNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonNumber.swift; sourceTree = "<group>"; };
+		20A79DE72541ECDF00D993E8 /* GamesSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesSchedule.swift; sourceTree = "<group>"; };
+		20A79E1F25420C1A00D993E8 /* NotificationCenter+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Name.swift"; sourceTree = "<group>"; };
+		20A79E2625421D4800D993E8 /* AlertControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerPresenter.swift; sourceTree = "<group>"; };
+		20A79E2B25421D6800D993E8 /* UIViewController+AlertSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertSheet.swift"; sourceTree = "<group>"; };
+		20A79E3125421D8400D993E8 /* AlertControllerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerData.swift; sourceTree = "<group>"; };
+		20A79E3A25421DAA00D993E8 /* AlertPresentableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentableViewController.swift; sourceTree = "<group>"; };
+		20A79E3F25421DCB00D993E8 /* CustomAlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertButton.swift; sourceTree = "<group>"; };
+		20A79E4425421DE600D993E8 /* CustomAlertImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertImageView.swift; sourceTree = "<group>"; };
+		20A79E4925421DFC00D993E8 /* CustomAlertLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertLabel.swift; sourceTree = "<group>"; };
+		20A79E4E25421E1300D993E8 /* CustomAlertPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertPicker.swift; sourceTree = "<group>"; };
+		20A79E5325421E2600D993E8 /* CustomAlertAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertAnimations.swift; sourceTree = "<group>"; };
+		20A79E5825421E3B00D993E8 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		20A79E5D25421E5000D993E8 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		20A79E6225421E7100D993E8 /* CustomPickerAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerAlertViewController.swift; sourceTree = "<group>"; };
+		20A79E6A25421EA700D993E8 /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		20A79E802542286D00D993E8 /* SelectedGameTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedGameTabBarViewController.swift; sourceTree = "<group>"; };
+		20A79E9125422EE900D993E8 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		20A79E9825422F1600D993E8 /* NumbersDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersDrawViewController.swift; sourceTree = "<group>"; };
+		20A79EA525422F2900D993E8 /* TalonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonViewController.swift; sourceTree = "<group>"; };
+		20A79EAD2542340900D993E8 /* TalonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonViewModel.swift; sourceTree = "<group>"; };
+		20A79EB3254236D700D993E8 /* TalonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonCollectionViewCell.swift; sourceTree = "<group>"; };
+		20A79EBB2542380E00D993E8 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		20CFC6932540C2E4004CAE5D /* GrckiKino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrckiKino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CFC6962540C2E4004CAE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CFC69A2540C2E4004CAE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20CFC69D2540C2E4004CAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CFC69F2540C2E5004CAE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CFC6A22540C2E5004CAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CFC6A42540C2E5004CAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +173,17 @@
 		20CFC79B2540EC89004CAE5D /* GameSchedulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSchedulesViewModel.swift; sourceTree = "<group>"; };
 		20CFC7B52540EE5B004CAE5D /* StructGameSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructGameSchedule.swift; sourceTree = "<group>"; };
 		20CFC7C92540F383004CAE5D /* GameSchedulesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSchedulesTableCell.swift; sourceTree = "<group>"; };
+		20CFC7DD2540FBB1004CAE5D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		20CFC7F52540FC2E004CAE5D /* ParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserHelper.swift; sourceTree = "<group>"; };
+		20CFC7FD2540FC53004CAE5D /* Threader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threader.swift; sourceTree = "<group>"; };
+		20CFC8022540FC66004CAE5D /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		20CFC8102540FC9E004CAE5D /* ErrorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
+		20CFC82E2540FD46004CAE5D /* ServerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAPI.swift; sourceTree = "<group>"; };
+		20CFC83D2540FDFB004CAE5D /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		20CFC8422540FE5D004CAE5D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		20CFC8472540FEB2004CAE5D /* UIString+localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIString+localize.swift"; sourceTree = "<group>"; };
+		20CFC85A2540FF2B004CAE5D /* RemoteResourceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteResourceError.swift; sourceTree = "<group>"; };
+		20CFC85F2540FF79004CAE5D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		494EEAA070B1B3AEABD12948 /* Pods_GrckiKinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F265A1AFD0EC42D563C3CAB /* Pods_GrckiKino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrckiKino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8827FE0A864816C59B05A279 /* Pods-GrckiKino-GrckiKinoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrckiKino-GrckiKinoUITests.release.xcconfig"; path = "Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,9 +221,212 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20594DE125472C6500EAE3CE /* ResultsTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				20594DE225472C8900EAE3CE /* ResultsTableCell.swift */,
+			);
+			path = ResultsTableCell;
+			sourceTree = "<group>";
+		};
+		206CF25E25460F4800644E97 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				206CF28C2546251800644E97 /* Main.storyboard */,
+				20A79E7D2542282A00D993E8 /* SelectedGameTabBar */,
+				20A79E8B25422E8400D993E8 /* Results */,
+				20A79E8A25422E7C00D993E8 /* NumbersDraw */,
+				20A79E8925422E7700D993E8 /* Talon */,
+				20CFC7802540E361004CAE5D /* Splash */,
+				20CFC7312540DEC7004CAE5D /* AppNavigation */,
+				20CFC6F92540DC92004CAE5D /* GameSchedules */,
+				20CFC7902540E7D3004CAE5D /* GameScreen */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		206CF26C2546185000644E97 /* TalonCollectionViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				206CF272254619FA00644E97 /* TalonCollectionViewHeader.swift */,
+			);
+			path = TalonCollectionViewHeader;
+			sourceTree = "<group>";
+		};
+		20A79DE62541EC2B00D993E8 /* GamesSchedules */ = {
+			isa = PBXGroup;
+			children = (
+				20A79DE72541ECDF00D993E8 /* GamesSchedule.swift */,
+			);
+			path = GamesSchedules;
+			sourceTree = "<group>";
+		};
+		20A79E1E25420BF000D993E8 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E1F25420C1A00D993E8 /* NotificationCenter+Name.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		20A79E2425421D2600D993E8 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E3925421D9900D993E8 /* CustomAlertViews */,
+				20A79E3025421D7800D993E8 /* Models */,
+				20A79E2525421D2F00D993E8 /* Presenters */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		20A79E2525421D2F00D993E8 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E2625421D4800D993E8 /* AlertControllerPresenter.swift */,
+				20A79E2B25421D6800D993E8 /* UIViewController+AlertSheet.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		20A79E3025421D7800D993E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E3125421D8400D993E8 /* AlertControllerData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20A79E3925421D9900D993E8 /* CustomAlertViews */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E5D25421E5000D993E8 /* CustomAlertViewController.swift */,
+				20A79E6225421E7100D993E8 /* CustomPickerAlertViewController.swift */,
+				20A79E3A25421DAA00D993E8 /* AlertPresentableViewController.swift */,
+				20A79E3F25421DCB00D993E8 /* CustomAlertButton.swift */,
+				20A79E4425421DE600D993E8 /* CustomAlertImageView.swift */,
+				20A79E4925421DFC00D993E8 /* CustomAlertLabel.swift */,
+				20A79E4E25421E1300D993E8 /* CustomAlertPicker.swift */,
+				20A79E5325421E2600D993E8 /* CustomAlertAnimations.swift */,
+				20A79E5825421E3B00D993E8 /* CustomAlertView.swift */,
+			);
+			path = CustomAlertViews;
+			sourceTree = "<group>";
+		};
+		20A79E7D2542282A00D993E8 /* SelectedGameTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E7E2542283100D993E8 /* View */,
+				20A79E7F2542283A00D993E8 /* ViewModel */,
+			);
+			path = SelectedGameTabBar;
+			sourceTree = "<group>";
+		};
+		20A79E7E2542283100D993E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E802542286D00D993E8 /* SelectedGameTabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20A79E7F2542283A00D993E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				206CF25325460F3A00644E97 /* ViewModelSelectedGameTabBar.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20A79E8925422E7700D993E8 /* Talon */ = {
+			isa = PBXGroup;
+			children = (
+				20A79EA425422F2000D993E8 /* View */,
+				20A79EA325422F1D00D993E8 /* ViewModel */,
+			);
+			path = Talon;
+			sourceTree = "<group>";
+		};
+		20A79E8A25422E7C00D993E8 /* NumbersDraw */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E9725422EF500D993E8 /* View */,
+				20A79E9625422EF100D993E8 /* ViewModel */,
+			);
+			path = NumbersDraw;
+			sourceTree = "<group>";
+		};
+		20A79E8B25422E8400D993E8 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E8F25422ECF00D993E8 /* View */,
+				20A79E9025422ED400D993E8 /* ViewModel */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		20A79E8F25422ECF00D993E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20594DE125472C6500EAE3CE /* ResultsTableCell */,
+				20A79E9125422EE900D993E8 /* ResultsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20A79E9025422ED400D993E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20594DC72546BD4A00EAE3CE /* ViewModelResults.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20A79E9625422EF100D993E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20594DC22546B25200EAE3CE /* ViewModelNumbersDraw.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20A79E9725422EF500D993E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20A79E9825422F1600D993E8 /* NumbersDrawViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20A79EA325422F1D00D993E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20A79EAD2542340900D993E8 /* TalonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20A79EA425422F2000D993E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				206CF26C2546185000644E97 /* TalonCollectionViewHeader */,
+				20A79EB2254236BF00D993E8 /* TalonCollectionViewCell */,
+				20A79EA525422F2900D993E8 /* TalonViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20A79EB2254236BF00D993E8 /* TalonCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				20A79EB3254236D700D993E8 /* TalonCollectionViewCell.swift */,
+			);
+			path = TalonCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		20CFC68A2540C2E4004CAE5D = {
 			isa = PBXGroup;
 			children = (
+				20CFC8422540FE5D004CAE5D /* Localizable.strings */,
 				20CFC6952540C2E4004CAE5D /* GrckiKino */,
 				20CFC6AC2540C2E5004CAE5D /* GrckiKinoTests */,
 				20CFC6B72540C2E5004CAE5D /* GrckiKinoUITests */,
@@ -164,9 +449,9 @@
 		20CFC6952540C2E4004CAE5D /* GrckiKino */ = {
 			isa = PBXGroup;
 			children = (
+				20CFC6C92540C2F5004CAE5D /* Shared */,
 				20CFC73A2540DF12004CAE5D /* Coordinators */,
 				20CFC6F82540DC8D004CAE5D /* Screens */,
-				20CFC6C92540C2F5004CAE5D /* Shared */,
 				20CFC69A2540C2E4004CAE5D /* ViewController.swift */,
 				20CFC69F2540C2E5004CAE5D /* Assets.xcassets */,
 				20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */,
@@ -196,6 +481,9 @@
 		20CFC6C92540C2F5004CAE5D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				20A79E2425421D2600D993E8 /* AlertController */,
+				20A79E1E25420BF000D993E8 /* NotificationCenter */,
+				20CFC7DC2540FBA2004CAE5D /* Network */,
 				20CFC7B12540EE44004CAE5D /* Models */,
 				20CFC78A2540E5D8004CAE5D /* Protocols */,
 				20CFC77A2540E308004CAE5D /* Classess */,
@@ -217,11 +505,7 @@
 		20CFC6F82540DC8D004CAE5D /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				20CFC7902540E7D3004CAE5D /* GameScreen */,
-				20CFC69C2540C2E4004CAE5D /* Main.storyboard */,
-				20CFC7802540E361004CAE5D /* Splash */,
-				20CFC7312540DEC7004CAE5D /* AppNavigation */,
-				20CFC6F92540DC92004CAE5D /* GameSchedules */,
+				206CF25E25460F4800644E97 /* Main */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -258,6 +542,9 @@
 				20CFC7082540DD57004CAE5D /* UIStoryboard+Names.swift */,
 				20CFC70D2540DD7B004CAE5D /* NSObject+NameOfClass.swift */,
 				20CFC72C2540DE4A004CAE5D /* UITableView+Extensions.swift */,
+				20CFC8472540FEB2004CAE5D /* UIString+localize.swift */,
+				20A79E6A25421EA700D993E8 /* UIColor+Theme.swift */,
+				20A79EBB2542380E00D993E8 /* UICollectionView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -325,6 +612,7 @@
 			isa = PBXGroup;
 			children = (
 				20CFC77B2540E318004CAE5D /* UserDefaultsHandler.swift */,
+				20594DD72546FD5800EAE3CE /* DateHandler.swift */,
 			);
 			path = Classess;
 			sourceTree = "<group>";
@@ -389,8 +677,67 @@
 			isa = PBXGroup;
 			children = (
 				20CFC7B52540EE5B004CAE5D /* StructGameSchedule.swift */,
+				20594DDC254700ED00EAE3CE /* CompletedGame.swift */,
+				209BCEFA25477B1600F3CA3A /* TalonNumber.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		20CFC7DC2540FBA2004CAE5D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC84C2540FEDA004CAE5D /* Alamofire */,
+				20CFC82D2540FD3C004CAE5D /* Host */,
+				20CFC8072540FC84004CAE5D /* Result */,
+				20CFC7F42540FC18004CAE5D /* Parser */,
+				20CFC7F32540FC08004CAE5D /* Models */,
+				20CFC7DD2540FBB1004CAE5D /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		20CFC7F32540FC08004CAE5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20A79DE62541EC2B00D993E8 /* GamesSchedules */,
+				20CFC83D2540FDFB004CAE5D /* AlertMessage.swift */,
+				20CFC85F2540FF79004CAE5D /* NetworkError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20CFC7F42540FC18004CAE5D /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC7F52540FC2E004CAE5D /* ParserHelper.swift */,
+				20CFC7FD2540FC53004CAE5D /* Threader.swift */,
+				20CFC8022540FC66004CAE5D /* Parser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		20CFC8072540FC84004CAE5D /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC8102540FC9E004CAE5D /* ErrorResult.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		20CFC82D2540FD3C004CAE5D /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC82E2540FD46004CAE5D /* ServerAPI.swift */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		20CFC84C2540FEDA004CAE5D /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				20CFC85A2540FF2B004CAE5D /* RemoteResourceError.swift */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		514131D1B558DBB8C72F5B0A /* Pods */ = {
@@ -427,6 +774,7 @@
 				20CFC68F2540C2E4004CAE5D /* Sources */,
 				20CFC6902540C2E4004CAE5D /* Frameworks */,
 				20CFC6912540C2E4004CAE5D /* Resources */,
+				4C39A4555F69596705D86FC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -464,6 +812,7 @@
 				20CFC6B02540C2E5004CAE5D /* Sources */,
 				20CFC6B12540C2E5004CAE5D /* Frameworks */,
 				20CFC6B22540C2E5004CAE5D /* Resources */,
+				7710FDFC0416E5D51C92C058 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -523,8 +872,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CFC6A32540C2E5004CAE5D /* LaunchScreen.storyboard in Resources */,
+				20CFC8432540FE5D004CAE5D /* Localizable.strings in Resources */,
 				20CFC6A02540C2E5004CAE5D /* Assets.xcassets in Resources */,
-				20CFC69E2540C2E4004CAE5D /* Main.storyboard in Resources */,
+				206CF28D2546251800644E97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +895,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4C39A4555F69596705D86FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrckiKino/Pods-GrckiKino-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrckiKino/Pods-GrckiKino-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrckiKino/Pods-GrckiKino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		58DEF7854D07E6F959C22BD8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,6 +932,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7710FDFC0416E5D51C92C058 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrckiKino-GrckiKinoUITests/Pods-GrckiKino-GrckiKinoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7BBA4076567AD544BF9D94B2 /* [CP] Check Pods Manifest.lock */ = {
@@ -618,30 +1002,70 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A79E6B25421EA700D993E8 /* UIColor+Theme.swift in Sources */,
+				20A79E3225421D8400D993E8 /* AlertControllerData.swift in Sources */,
 				20CFC70E2540DD7B004CAE5D /* NSObject+NameOfClass.swift in Sources */,
 				20CFC72D2540DE4A004CAE5D /* UITableView+Extensions.swift in Sources */,
+				20A79DE82541ECDF00D993E8 /* GamesSchedule.swift in Sources */,
 				20CFC79C2540EC89004CAE5D /* GameSchedulesViewModel.swift in Sources */,
 				20CFC7572540E072004CAE5D /* MainFactoryImp.swift in Sources */,
 				20CFC7512540E053004CAE5D /* BaseCoordinator.swift in Sources */,
 				20CFC7942540E7ED004CAE5D /* GameViewController.swift in Sources */,
+				20594DC32546B25200EAE3CE /* ViewModelNumbersDraw.swift in Sources */,
+				20CFC85B2540FF2B004CAE5D /* RemoteResourceError.swift in Sources */,
+				206CF273254619FA00644E97 /* TalonCollectionViewHeader.swift in Sources */,
+				20A79E3B25421DAA00D993E8 /* AlertPresentableViewController.swift in Sources */,
+				20A79E4025421DCB00D993E8 /* CustomAlertButton.swift in Sources */,
+				20A79E2025420C1A00D993E8 /* NotificationCenter+Name.swift in Sources */,
 				20CFC7142540DDB1004CAE5D /* StoryboardsEnum.swift in Sources */,
 				20CFC7B62540EE5B004CAE5D /* StructGameSchedule.swift in Sources */,
+				20A79E812542286D00D993E8 /* SelectedGameTabBarViewController.swift in Sources */,
+				20A79E2C25421D6800D993E8 /* UIViewController+AlertSheet.swift in Sources */,
 				20CFC7612540E11D004CAE5D /* MainModuleFactory.swift in Sources */,
+				206CF25425460F3A00644E97 /* ViewModelSelectedGameTabBar.swift in Sources */,
+				20594DDD254700ED00EAE3CE /* CompletedGame.swift in Sources */,
 				20CFC69B2540C2E4004CAE5D /* ViewController.swift in Sources */,
 				20CFC7762540E1A7004CAE5D /* BaseView.swift in Sources */,
+				20A79EB4254236D700D993E8 /* TalonCollectionViewCell.swift in Sources */,
+				20A79E5E25421E5000D993E8 /* CustomAlertViewController.swift in Sources */,
 				20CFC74C2540E00E004CAE5D /* CoordinatorFactoryImp.swift in Sources */,
 				20CFC7092540DD57004CAE5D /* UIStoryboard+Names.swift in Sources */,
 				20CFC77C2540E318004CAE5D /* UserDefaultsHandler.swift in Sources */,
+				20CFC8112540FC9E004CAE5D /* ErrorResult.swift in Sources */,
 				20CFC6FD2540DD21004CAE5D /* GameSchedulesViewController.swift in Sources */,
+				20A79E6325421E7100D993E8 /* CustomPickerAlertViewController.swift in Sources */,
+				20A79E5425421E2600D993E8 /* CustomAlertAnimations.swift in Sources */,
+				20CFC82F2540FD46004CAE5D /* ServerAPI.swift in Sources */,
 				20CFC7672540E14B004CAE5D /* Router.swift in Sources */,
+				20CFC7F62540FC2E004CAE5D /* ParserHelper.swift in Sources */,
+				20A79E9925422F1600D993E8 /* NumbersDrawViewController.swift in Sources */,
+				20CFC8032540FC66004CAE5D /* Parser.swift in Sources */,
+				20CFC8602540FF79004CAE5D /* NetworkError.swift in Sources */,
 				20CFC78C2540E5E6004CAE5D /* UIView+Styling.swift in Sources */,
+				20CFC7FE2540FC53004CAE5D /* Threader.swift in Sources */,
+				20594DE325472C8900EAE3CE /* ResultsTableCell.swift in Sources */,
+				20594DD82546FD5800EAE3CE /* DateHandler.swift in Sources */,
 				20CFC6972540C2E4004CAE5D /* AppDelegate.swift in Sources */,
 				20CFC7332540DEEC004CAE5D /* AppNavigation.swift in Sources */,
+				20CFC83E2540FDFB004CAE5D /* AlertMessage.swift in Sources */,
+				20A79EA625422F2900D993E8 /* TalonViewController.swift in Sources */,
 				20CFC7422540DF81004CAE5D /* LauncherManagerOption.swift in Sources */,
+				20CFC7DE2540FBB1004CAE5D /* APIManager.swift in Sources */,
+				20A79E4A25421DFC00D993E8 /* CustomAlertLabel.swift in Sources */,
 				20CFC7472540DFD7004CAE5D /* CoordinatorFactory.swift in Sources */,
+				20A79EBC2542380E00D993E8 /* UICollectionView+Extensions.swift in Sources */,
 				20CFC7712540E17D004CAE5D /* Presentable.swift in Sources */,
+				20A79E5925421E3B00D993E8 /* CustomAlertView.swift in Sources */,
+				20A79E4525421DE600D993E8 /* CustomAlertImageView.swift in Sources */,
 				20CFC76C2540E163004CAE5D /* RouterImp.swift in Sources */,
+				20A79E2725421D4800D993E8 /* AlertControllerPresenter.swift in Sources */,
+				20594DC82546BD4A00EAE3CE /* ViewModelResults.swift in Sources */,
+				209BCEFB25477B1600F3CA3A /* TalonNumber.swift in Sources */,
+				20CFC8482540FEB3004CAE5D /* UIString+localize.swift in Sources */,
+				20A79EAE2542340900D993E8 /* TalonViewModel.swift in Sources */,
+				20A79E4F25421E1300D993E8 /* CustomAlertPicker.swift in Sources */,
 				20CFC7CA2540F383004CAE5D /* GameSchedulesTableCell.swift in Sources */,
+				20A79E9225422EE900D993E8 /* ResultsViewController.swift in Sources */,
 				20CFC75C2540E0A0004CAE5D /* MainCoordinator.swift in Sources */,
 				20CFC73C2540DF4A004CAE5D /* Coordinator.swift in Sources */,
 				20CFC7832540E397004CAE5D /* SplashViewController.swift in Sources */,
@@ -680,14 +1104,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20CFC69C2540C2E4004CAE5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20CFC69D2540C2E4004CAE5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		20CFC6A12540C2E5004CAE5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
